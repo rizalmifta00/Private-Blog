@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
+postgres://sygrzpsyxgvfil:6910131f7bb848e58554a941e40589c46f3d8b46054703c8c112f1f755bc0dff@ec2-54-225-242-183.compute-1.amazonaws.com:5432/d6jdghktk6nptm
 
 return [
 
@@ -52,7 +53,7 @@ return [
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8mb4',
+            'charset' => 'utf8',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'prefix_indexes' => true,
