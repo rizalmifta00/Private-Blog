@@ -11,7 +11,12 @@
 |
 */
 
+// Route::get('/',function(){
+//     return view('artikel.dashboard');
 
+    
+// });
+Route::get('/','artikelController@tampilkan');
 Route::resource('kategori','kategoriController');
 Route::resource('artikel','artikelController');
 Route::get('dashboard','artikelController@tampilkan');
